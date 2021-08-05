@@ -25,7 +25,7 @@ WebUI.scrollToPosition(50, 6000)
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Subscribe_footer_footerLinkHeading__2dW1j'))
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_2 Adewunmi Estate, First Bank Bus Stop, K_66d1ac'))
+WebUI.click(findTestObject('New Guys/New 2/p_2 Adewunmi Estate, First Bank Bus Stop, Kudiratu Abiola Way, Oregun, Lagos.Nigeria'))
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Quick Links'))
 
@@ -66,7 +66,6 @@ WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_1'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_1_2'))
-
 
 //This failed
 WebUI.back()

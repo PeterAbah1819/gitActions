@@ -21,15 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_home_googlePlayImg__35zs1'))
+WebUI.click(findTestObject('New Guys/new 4/a_About Us'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('New Guys/New 5/img_Contact Us_partners_googlePlayImg__3ymfB'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn - Apps on Google Play/span_Hicolumn'))
 
-WebUI.back()
+WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/about_us')
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img'))
+WebUI.click(findTestObject('New Guys/New 5/img'))
 
 WebUI.delay(2)
 
@@ -37,49 +39,9 @@ WebUI.click(findTestObject('Object Repository/Page_Hicolumn on the AppStore/h1_H
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_WHY CHOOSE HICOLUMN'))
+WebUI.click(findTestObject('New Guys/New 6/p_Our Partners'))
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_How it works'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Create your Store'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_List your Product'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Sell to Buyers'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_App Features'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Store Listings'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Bills Payment'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Easy product Search'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_features_featureImage__2OAUY'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Your online store is just a few clicks away'))
-
-WebUI.scrollToPosition(50, 3000)
-
-WebUI.click(findTestObject('Object Repository/spy objects/img_Contact Us_merchant_googlePlayImg__27602'))
-
-WebUI.back()
-
-WebUI.click(findTestObject('Object Repository/spy objects/img'))
-
-WebUI.back()
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Our Partners'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_partners_logos__3kHu7'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_partners_logos__3kHu7_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_partners_logos__3kHu7_1_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_partners_logos__3kHu7_1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_Contact Us_partners_logos__3kHu7_1_2_3_4'))
+WebUI.click(findTestObject('New Guys/New 6/div_Our Partners'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Hicolumn Website/input_Contact Us_email'), 'peter@enyata.com')
 
