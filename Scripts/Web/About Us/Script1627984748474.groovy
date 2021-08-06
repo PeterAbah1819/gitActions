@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/')
 
-WebUI.click(findTestObject('New Guys/new 4/a_About Us'))
+WebUI.click(findTestObject('Newer1/1/a_About Us'))
 
 WebUI.click(findTestObject('New Guys/New 5/img_Contact Us_partners_googlePlayImg__3ymfB'))
 
@@ -39,9 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Hicolumn on the AppStore/h1_H
 
 WebUI.back()
 
-WebUI.click(findTestObject('New Guys/New 6/p_Our Partners'))
-
-WebUI.click(findTestObject('New Guys/New 6/div_Our Partners'))
+WebUI.click(findTestObject('About new/div_Our Partners'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Hicolumn Website/input_Contact Us_email'), 'peter@enyata.com')
 

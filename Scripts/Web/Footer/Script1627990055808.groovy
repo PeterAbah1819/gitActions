@@ -61,8 +61,6 @@ WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/')
 
 WebUI.scrollToPosition(50, 6000)
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_1'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img_1_2'))
@@ -73,6 +71,8 @@ WebUI.back()
 WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/img'))
+
+WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Copyright  2021 Hicolumn - All Rights Reserved'))
 

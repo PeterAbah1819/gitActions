@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://stagingwebsite.hicolumn.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/a_Contact Us'))
+WebUI.click(findTestObject('New new 1/2/a_Contact Us'))
 
 WebUI.click(findTestObject('Object Repository/Page_Hicolumn Website/p_Got questions'))
 
