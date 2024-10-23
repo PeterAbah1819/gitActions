@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3643","Confirm website tabs","chromium","Wed Sep 11 02:07:53 WAT 2024","passed","Wed Sep 11 02:07:57 WAT 2024","","FrontEnd/UI_test.spec.js","",""
+"","3208","Confirm About US tab","chromium","Wed Sep 11 02:07:53 WAT 2024","passed","Wed Sep 11 02:07:57 WAT 2024","","FrontEnd/UI_test.spec.js","",""
+"","3084","Confirm Press tab","chromium","Wed Sep 11 02:07:53 WAT 2024","passed","Wed Sep 11 02:07:56 WAT 2024","","FrontEnd/UI_test.spec.js","",""
+"","3120","Confirm website has the certain texts","chromium","Wed Sep 11 02:07:53 WAT 2024","passed","Wed Sep 11 02:07:57 WAT 2024","","FrontEnd/UI_test.spec.js","",""
